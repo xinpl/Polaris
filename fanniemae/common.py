@@ -1,8 +1,6 @@
 import tensorflow as tf
 from collections import OrderedDict
 import sys
-sys.path.append('/home/xin/repos/mortgagenn/')
-sys.path.append('/afs/csail.mit.edu/u/x/xzhang/mortgagenn/')
 from nnExplain.genExp import Model
 from nnExplain.genExp import Layer
 from nnExplain.genExp import LayerKind
