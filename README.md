@@ -11,10 +11,11 @@ You can install all the required packages natively, but we recommend using [cond
 1. Create an environment:
 
    ```
-   conda create -n polaris python=3.6 tensorflow keras 
+   conda create -n polaris python=3.6 tensorflow keras pandas namedlist
    source activate polaris
    ```
-2. Install cleverhans
+2. Install [Gurobi](http://www.gurobi.com/). You can apply for a free license if you are in academia.
+3. Install cleverhans:
    ```
    pip install cleverhans
    ```
