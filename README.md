@@ -11,15 +11,33 @@ You can install all the required packages natively, but we recommend using [cond
 1. Create an environment:
 
    ```
-   conda create -n polaris python=3.6 tensorflow keras pandas namedlist
+   conda create -n polaris python=3.6 tensorflow keras pandas namedlist jsonlines svgwrite requests
    source activate polaris
    ```
-2. Install [Gurobi](http://www.gurobi.com/). You can apply for a free license if you are in academia.
+2. Install [Gurobi](http://www.gurobi.com/). Academic licenses are free.
+   
 3. Install cleverhans:
    ```
    pip install cleverhans
    ```
+
+4. Install [magenta](https://github.com/tensorflow/magenta). (Required by **drawing tutoring**).
+
+
 ## Running the experiments
+
+* To run **mortgage underwriting**:
+   ```
+   python -m fanniemae.mortgage_exp ./fanniemae/data/imb_100k.test ./fanniemae/models/model_5_200 100 1000
+   ```
+* To run **solver performance prediction**:
+   ```
+   python -m proof.proof_explain ./proof/models/8x100.h5 100
+   ```
+* To run **drawing tutoring**:
+   ```
+   python -m gold_cat.cat_exp ./gold_cat/model/dis/cat_model_mix-9000 ./gold_cat/model/gen/
+   ```
 
 ## Training the models
 
