@@ -11,17 +11,22 @@ You can install all the required packages natively, but we recommend using [cond
 1. Create an environment:
 
    ```
-   conda create -n polaris python=3.6 tensorflow keras pandas namedlist jsonlines svgwrite requests
+   conda create -n polaris python=3.6 tensorflow keras pandas requests
    source activate polaris
    ```
-2. Install [Gurobi](http://www.gurobi.com/). Academic licenses are free.
+2. Install 'namedlist', 'jsonlines', and 'svgwrite':
+   '''
+   pip install namedlist jsonlines svgwrite
+   '''
+
+3. Install [Gurobi](http://www.gurobi.com/). Academic licenses are free.
    
-3. Install cleverhans:
+4. Install cleverhans:
    ```
    pip install cleverhans
    ```
 
-4. Install [magenta](https://github.com/tensorflow/magenta). (Required by **drawing tutoring**).
+5. Install [magenta](https://github.com/tensorflow/magenta). (Required by **drawing tutoring**).
 
 
 ## Running the experiments
