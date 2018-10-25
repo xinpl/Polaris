@@ -15,6 +15,9 @@ You can install all the required packages natively, but we recommend using [cond
    source activate polaris
    ```
 2. Install cleverhans
+   ```
+   pip install cleverhans
+   ```
 ## Running the experiments
 
 ## Training the models
