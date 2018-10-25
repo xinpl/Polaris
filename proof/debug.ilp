@@ -1,0 +1,12 @@
+\ Model Linear Region Feasibility_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R0: - 0.0186718665063381 C0 - 0.0542429760098457 C1 >= 0.0606576121084483
+ R299: 0.171391561627388 C0 - 0.5696448087692261 C1 >= 0.9318402491179044
+ R303: C1 >= -1.135620853304655
+Bounds
+ C0 free
+ C1 free
+End
