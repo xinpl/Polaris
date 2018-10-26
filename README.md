@@ -14,10 +14,10 @@ You can install all the required packages natively, but we recommend using [cond
    conda create -n polaris python=3.6 tensorflow keras pandas requests
    source activate polaris
    ```
-2. Install 'namedlist', 'jsonlines', and 'svgwrite':
-   '''
+2. Install `namedlist`, `jsonlines`, and `svgwrite`:
+   ```
    pip install namedlist jsonlines svgwrite
-   '''
+   ```
 
 3. Install [Gurobi](http://www.gurobi.com/). Academic licenses are free.
    
