@@ -33,7 +33,7 @@ You can install all the required packages natively, but we recommend using [cond
 
 * To run **mortgage underwriting**:
    ```
-   python -m fanniemae.mortgage_exp ./fanniemae/data/imb_100k.test ./fanniemae/models/model_5_200 100 1000
+   python -m fanniemae.mortgage_exp ./fanniemae/data/imb_100k.test ./fanniemae/models/model_5_200 100 100
    ```
 * To run **solver performance prediction**:
    ```
