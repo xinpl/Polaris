@@ -5,7 +5,7 @@ from keras.backend.tensorflow_backend import set_session
 from keras import backend as K
 import nnExplain
 import nnExplain.utils
-from nnExplain.utils import createModelFromKerasSave
+from nnExplain.kerasUtils import createModelFromKerasSave
 from nnExplain.NNModel import Layer, LayerKind, Model
 from nnExplain.genExp import ExplGenerator
 from nnExplain.utils import verbose, Timeout
